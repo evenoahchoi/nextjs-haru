@@ -42,28 +42,6 @@ const Home = () => {
     <div className="max-w-lg mx-auto p-5">
       <div className="flex justify-between items-center mb-6">
         <h1 className="text-2xl font-bold">하루명언</h1>
-        <div className="relative">
-          {" "}
-          {/* 메뉴 버튼과 드롭다운 메뉴를 감싸는 컨테이너 */}
-          <button className="p-2" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-            메뉴
-          </button>
-          {/* 드롭다운 메뉴 */}
-          {isMenuOpen && (
-            <div className="absolute right-0 mt-2 py-2 w-40 bg-white rounded shadow-xl">
-              <Link
-                href="/mypage"
-                className="block px-4 py-2 hover:bg-gray-100"
-              >
-                마이페이지
-              </Link>
-              <Link href="/login" className="block px-4 py-2 hover:bg-gray-100">
-                로그인
-              </Link>
-              {/* 여기에 더 많은 링크 추가 가능 */}
-            </div>
-          )}
-        </div>
       </div>
       <div className="border border-gray-300 rounded-lg overflow-hidden">
         <Image
