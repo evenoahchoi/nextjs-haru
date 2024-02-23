@@ -54,7 +54,7 @@ const Home = () => {
         <div className="p-4">
           <p className="mt-4 text-lg">{quote.text}</p>
           <div className="mt-6">
-            <h2 className="text-xl mb-4">댓글</h2>
+            <h2 className="text-xl mb-4">댓글 시작</h2>
             {filteredComments.map((comment) => (
               <p key={comment.id} className="mb-1">
                 {comment.text}
