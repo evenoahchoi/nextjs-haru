@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
-export default function Navbar() {
+export default function Footer() {
     return (
       <div className="w-full fixed bottom-0 z-10 bg-white shadow border-t-2">
         <div id="tabs" className="flex justify-between">
