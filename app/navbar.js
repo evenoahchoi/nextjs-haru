@@ -9,17 +9,17 @@ export default function Navbar() {
           <Link href="/" className="flex flex-col items-center justify-center w-full pt-2 pb-1 hover:text-teal-500">
               <Image src="/home.png" alt="Home" width={50} height={50} priority />
           </Link>
-          <Link href="/calender" className="flex flex-col items-center justify-center w-full pt-2 pb-1 hover:text-teal-500">
-              <Image src="/calender.png" alt="calender" width={50} height={50} priority />
+          <Link href="/calender" className="flex flex-col items-center justify-center w-full pt-2 pb-1">
+              <Image src="/calender.png" width={50} height={50} priority />
           </Link>
-          <Link href="/search" className="flex flex-col items-center justify-center w-full pt-2 pb-1 hover:text-teal-500">
-              <Image src="/search.png" alt="search" width={50} height={50} priority />
+          <Link href="/search" className="flex flex-col items-center justify-center w-full pt-2 pb-1">
+              <Image src="/search.png" width={50} height={50} priority />
           </Link>
-          <Link href="/favorite" className="flex flex-col items-center justify-center w-full pt-2 pb-1 hover:text-teal-500">
-              <Image src="/favorite.png" alt="Favorite" width={50} height={50} priority />
+          <Link href="/favorite" className="flex flex-col items-center justify-center w-full pt-2 pb-1">
+              <Image src="/favorite.png" width={50} height={50} priority />
           </Link>
-          <Link href="/mypage" className="flex flex-col items-center justify-center w-full pt-2 pb-1 hover:text-teal-500">
-              <Image src="/user.png" alt="User" width={50} height={50} priority />
+          <Link href="/mypage" className="flex flex-col items-center justify-center w-full pt-2 pb-1">
+              <Image src="/user.png" width={50} height={50} priority />
           </Link>
         </div>
       </div>
