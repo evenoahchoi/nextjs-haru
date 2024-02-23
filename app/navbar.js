@@ -6,7 +6,7 @@ export default function Navbar() {
     return (
       <div className="w-full fixed bottom-0 z-10 bg-white shadow border-t-2">
         <div id="tabs" className="flex justify-between">
-          <Link href="/" className="flex flex-col items-center justify-center w-full pt-2 pb-1 hover:text-teal-500">
+          <Link href="/" className="flex flex-col items-center justify-center w-full pt-2 pb-1">
               <Image src="/home.png" alt="Home" width={50} height={50} priority />
           </Link>
           <Link href="/calender" className="flex flex-col items-center justify-center w-full pt-2 pb-1">
