@@ -27,4 +27,4 @@ jobs:
           git config --global --add safe.directory /volume1/docker/node/nextjs-haru
           cd /volume1/docker/node/nextjs-haru
           git pull origin master
-          npm run build
+          # npm run build
