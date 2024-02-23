@@ -41,7 +41,7 @@ const Home = () => {
   return (
     <div className="max-w-lg mx-auto p-5">
       <div className="flex justify-between items-center mb-6">
-        <h1 className="text-2xl font-bold">하루명언3</h1>
+        <h1 className="text-2xl font-bold">하루명언4</h1>
       </div>
       <div className="border border-gray-300 rounded-lg overflow-hidden">
         <Image
